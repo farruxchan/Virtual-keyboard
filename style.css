@@ -1,0 +1,35 @@
+#keyboard {
+    display: block;
+    border: 2px solid black;
+    padding: 5px;
+    width: 768px;
+}
+
+#keyboard::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.k-key {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin: 3px;
+    padding: 3px;
+    float: left;
+}
+
+.clearfix {
+    display: block;
+    width: 100%;
+    clear: both;
+}
+
+.text-center {
+    margin-left: 100px;
+}
+
+.active {
+    background: orange;
+}
